@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import {
+  HashRouter,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom/cjs/react-router-dom.min";
+import StartPage from "./pages/start/StartPage";
+import ProcesPage from "./pages/proces/ProcesPage";
+import TeaPage from "./pages/tea/TeaPage";
+import { Navigation } from "./common/Navigation";
+import { toStart, toProces, toTea, toStarted } from "./routes";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+export default () => (
+  <HashRouter>
+    <Navigation />
+    <Switch>
+      <Route path={toStart()}>
+        <StartPage />
+      </Route>
+      <Route path={toStarted()}>
+        <StartPage />
+      </Route>
+      <Route path={toProces()}>
+        <ProcesPage />
+      </Route>
+      <Route path={toTea()}>
+        <TeaPage />
+      </Route>
+      <Route path="/">
+        <Redirect to={toStarted} />
+      </Route>
+    </Switch>
+  </HashRouter>
+);
