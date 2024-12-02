@@ -23,7 +23,7 @@ const TeaPage = () => (
             <strong> Silver Tip</strong>, mogą mieć jej nieco więcej.
           </p>
           <p>
-            <strong>Przykłady:</strong> mogą mieć jej nieco więcej.
+            <strong>Przykłady:</strong> Silver Needle, Bai Mudan, Baihao Yinzhen
           </p>
         </>
       }
