@@ -11,12 +11,18 @@ const TeaPage = () => (
         <>
           <p>
             <strong>Proces Suszenia:</strong> Suszenie
+          </p>
+          <p>
             <strong>Zawartość Kofeiny:</strong> 5–55 mg
+          </p>
+          <p>
             <strong>Charakterystyka:</strong> Charakteryzuje się lekkim smakiem
             i łagodnym aromatem, a także jest orzeźwiająca, delikatna i
             subtelnie słodka, często z kwiatowymi nutami.Herbata biała zazwyczaj
-            zawiera bardzo mało kofeiny, choć niektóre odmiany, takie jak{" "}
-            <strong>Silver Tip</strong>,mogą mieć jej nieco więcej.
+            zawiera bardzo mało kofeiny, choć niektóre odmiany, takie jak
+            <strong> Silver Tip</strong>, mogą mieć jej nieco więcej.
+          </p>
+          <p>
             <strong>Przykłady:</strong> mogą mieć jej nieco więcej.
           </p>
         </>
@@ -44,12 +50,18 @@ const TeaPage = () => (
           <p>
             <strong>Proces produkcji:</strong> Więdnięcie, obtłukiwanie,
             utlenianie, utrwalanie, rolowanie, suszenie.
+          </p>
+          <p>
             <strong>Zawartość kofeiny:</strong> 45-70mg
+          </p>
+          <p>
             <strong>Charakterystyka:</strong> Herbata czarna zawiera stosunkowo
             dużo kofeiny co odpowiada połowy ilości zawartej w filiżance kawy.
             Po zaparzeniu ma ciemną, miedzianą barwę i zazwyczaj silniejszy,
             bardziej wyrazisty smak często z nutami słodowymi, ziemistymi niż
             inne rodzaje herbat.
+          </p>
+          <p>
             <strong>Przykłady:</strong> Assam, Darjeeling, Ceylon, Golden Monkey
           </p>
         </>
@@ -60,20 +72,24 @@ const TeaPage = () => (
       body={
         <>
           <p>
-            Herbata czarna jest głównie produkowana w{" "}
-            <strong>Chinach i Indiach.</strong> Do rozwijających się krajów
+            Herbata czarna jest głównie produkowana w
+            <strong> Chinach i Indiach.</strong> Do rozwijających się krajów
             eksportujących herbatę czarną należą również
-            <strong>Sri Lanka, Nepal, Wietnam i Kenia</strong>.
+            <strong> Sri Lanka, Nepal, Wietnam i Kenia</strong>.
+          </p>
+          <p>
             <strong>• Herbaty indyjskie</strong> indyjskie mają zazwyczaj
             silniejszy i bardziej wyrazisty smak. Często stosuje się je w
             esencjonalnych mieszankach śniadaniowych, które dobrze komponują się
             z mlekiem i słodzidłem. Wiele indyjskich herbat czarnych jest
             klasyfikowanych za pomocą specjalnego systemu oceny jakości herbaty.
+          </p>
+          <p>
             <strong>• Herbaty chińskie </strong> są lżejsze i bardziej łagodne,
             zazwyczaj spożywane bez dodatków, takich jak mleko czy cukier.
             Zawierają również nieco mniej kofeiny niż ich indyjskie
-            odpowiedniki. Popularne chińskie herbaty czarne to{" "}
-            <strong>China Keemun i Golden Yunnan.</strong>
+            odpowiedniki. Popularne chińskie herbaty czarne to
+            <strong> China Keemun i Golden Yunnan.</strong>
           </p>
         </>
       }
@@ -84,12 +100,18 @@ const TeaPage = () => (
         <>
           <p>
             <strong>Proces produkcji:</strong> Utrwalanie, rolowanie, suszenie
+          </p>
+          <p>
             <strong>Zawartość kofeiny:</strong> 30-50 mg
+          </p>
+          <p>
             <strong>Charakterystyka:</strong> Herbata zielona ma zazwyczaj
             delikatny, trawiasty smak z nutami roślinnymi i jest bardziej
             łagodna niż czarna. Kolor naparu jest jasny, zielony lub żółty.
             Zawiera około połowę kofeiny mniej, niż herbata czarna (około jednej
             czwartej kofeiny zawartej w filiżance kawy).
+          </p>
+          <p>
             <strong>Przykłady:</strong> Matcha, Gunpowder, Sencha, Genmaicha
           </p>
         </>
@@ -125,7 +147,11 @@ const TeaPage = () => (
             czarną. Liście herbaty przechodzą przez kilka etapów: więdnięcie,
             zgniecenie, częściową oksydację, utrwalenie (parzenie lub smażenie),
             rolowanie i suszenie.
+          </p>
+          <p>
             <strong>Zawartość kofeiny: </strong>30-60 mg
+          </p>
+          <p>
             <strong>Charakterystyka: </strong>Herbata oolong oferuje szeroki
             wachlarz smaków – od kwiatowych i owocowych, po prażone i orzechowe,
             z gładką i kremową teksturą. Herbaty oolong mogą mieć różny poziom
@@ -135,6 +161,8 @@ const TeaPage = () => (
             z każdym kolejnym zaparzeniem pojawiają się subtelne różnice i
             niuanse smaku. W porównaniu z innymi herbatami jest ona średnio
             kofeinowa.
+          </p>
+          <p>
             <strong>Przykłady: </strong>Tieguanyin, Da Hong Pao, Dong Ding
           </p>
         </>
