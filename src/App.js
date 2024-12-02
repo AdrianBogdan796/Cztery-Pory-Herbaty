@@ -4,21 +4,25 @@ import {
   Route,
   Redirect,
 } from "react-router-dom/cjs/react-router-dom.min";
-import StartPage from "./pages/start/StartPage";
+import FromPage from "./pages/from/FromPage";
 import ProcesPage from "./pages/proces/ProcesPage";
 import TeaPage from "./pages/tea/TeaPage";
+import WelcomePage from "./pages/welcome/WelcomePage"; // Nowa strona powitalna
 import { Navigation } from "./common/Navigation";
-import { toStart, toProces, toTea, toStarted } from "./routes";
+import { toFrom, toProces, toTea, toStarted, toWelcome } from "./routes";
 
 export default () => (
   <HashRouter>
     <Navigation />
     <Switch>
-      <Route path={toStart()}>
-        <StartPage />
+      <Route path={toWelcome()} exact>
+        <WelcomePage /> {/* Strona powitalna */}
+      </Route>
+      <Route path={toFrom()}>
+        <FromPage />
       </Route>
       <Route path={toStarted()}>
-        <StartPage />
+        <FromPage />
       </Route>
       <Route path={toProces()}>
         <ProcesPage />
@@ -27,7 +31,7 @@ export default () => (
         <TeaPage />
       </Route>
       <Route path="/">
-        <Redirect to={toStarted} />
+        <Redirect to={toWelcome()} />
       </Route>
     </Switch>
   </HashRouter>
