@@ -5,7 +5,7 @@ export const Navigation = () => (
   <Nav>
     <NavList>
       <NavItem>
-        <StyledNavLink to={toFrom()}>Pochodzenia Herbat</StyledNavLink>
+        <StyledNavLink to={toFrom()}>Pochodzenia Herbaty</StyledNavLink>
       </NavItem>
       <NavItem>
         <StyledNavLink to={toProces()}>Proces Przetwarzania</StyledNavLink>
