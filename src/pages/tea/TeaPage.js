@@ -27,6 +27,7 @@ const TeaPage = () => (
           </p>
         </>
       }
+      centered={true}
     />
     <Section
       title="Pochodzenie herbaty białej"
@@ -66,6 +67,7 @@ const TeaPage = () => (
           </p>
         </>
       }
+      centered={true}
     />
     <Section
       title="Pochodzenie herbaty czarnej"
@@ -116,6 +118,7 @@ const TeaPage = () => (
           </p>
         </>
       }
+      centered={true}
     />
     <Section
       title="Pochodzenie herbaty zielonej"
@@ -167,6 +170,7 @@ const TeaPage = () => (
           </p>
         </>
       }
+      centered={true}
     />
     <Section
       title="Pochodzenie herbaty oolong"
