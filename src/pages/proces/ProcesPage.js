@@ -56,18 +56,34 @@ const ProcesPage = () => (
             odpowiedzialne za kolor i aromat herbaty. Warunki fermentacji, takie
             jak temperatura i wilgotność, są precyzyjnie kontrolowane. Czas
             trwania procesu wynosi od 45 minut do kilku godzin. Proces
-            zatrzymuje się poprzez suszenie w wysokiej temperaturze. Rodzaje
-            fermentacji:
-            <strong>Pełna fermentacja:</strong> Stosowana w herbacie czarnej,
-            nadająca liściom brązowy kolor i bogaty aromat.
-            <strong>Częściowa fermentacja:</strong> Wykorzystywana w herbatach
-            oolong, pozwala na uzyskanie delikatniejszych smaków.
-            <strong>Utrwalanie</strong> (Proces zatrzymywania fermentacji)
-            odbywa się poprzez: Parowanie: Krótkie działanie pary wodnej. Ok. 1
-            minuty. Panoramirowanie (pan firing”): Podgrzewanie liści w wysokiej
-            temperaturze (250–300°C) przez około 15 minut. W razie konieczności
-            proces może być powtarzany. Opiekanie/Obżarzanie (Baking): Suszenie
-            w piecach przy około 90°C, aby zapobiec pleśnieniu.
+            zatrzymuje się poprzez suszenie w wysokiej temperaturze.
+            <h1>Rodzaje fermentacji:</h1>
+            <p>
+              <strong>Pełna fermentacja:</strong> Stosowana w herbacie czarnej,
+              nadająca liściom brązowy kolor i bogaty aromat.
+            </p>
+            <p>
+              <strong>Częściowa fermentacja:</strong> Wykorzystywana w herbatach
+              oolong, pozwala na uzyskanie delikatniejszych smaków.
+            </p>
+            <p>
+              Fermentacja na taśmie produkcyjnej: Standaryzowany proces w
+              masowej produkcji.
+            </p>
+            <p>
+              <strong>Utrwalanie</strong> (Proces zatrzymywania fermentacji)
+              odbywa się poprzez:
+            </p>
+            <p>Parowanie: Krótkie działanie pary wodnej. Ok. 1 minuty.</p>
+            <p>
+              Panoramirowanie (pan firing”): Podgrzewanie liści w wysokiej
+              temperaturze (250–300°C) przez około 15 minut. W razie
+              konieczności proces może być powtarzany.
+            </p>
+            <p>
+              Opiekanie/Obżarzanie (Baking): Suszenie w piecach przy około 90°C,
+              aby zapobiec pleśnieniu.
+            </p>
           </p>
         </>
       }
@@ -80,10 +96,12 @@ const ProcesPage = () => (
             Skręcanie liści wpływa na ich wygląd, łatwość przechowywania i
             jakość naparu. Wykorzystuje się metody ręczne lub maszynowe, a
             proces odbywa się w kontrolowanych warunkach temperatury i
-            wilgotności. Herbaty aromatyzowane wytwarzane są na tym etapie przez
-            spryskiwanie liści herbaty aromatami i smakami lub przez
-            przechowywanie ich z dodatkami smakowymi, co pozwala na ich
-            wchłonięcie.
+            wilgotności.
+          </p>
+          <p>
+            Herbaty aromatyzowane wytwarzane są na tym etapie przez spryskiwanie
+            liści herbaty aromatami i smakami lub przez przechowywanie ich z
+            dodatkami smakowymi, co pozwala na ich wchłonięcie.
           </p>
         </>
       }
