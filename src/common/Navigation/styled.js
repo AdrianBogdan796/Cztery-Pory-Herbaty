@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 import styled from "styled-components";
 
 export const Nav = styled.nav`
-  background-color: rgb(12, 117, 117);
+  background-color: rgb(75 144 65);
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -11,7 +11,7 @@ export const Nav = styled.nav`
 
 export const NavList = styled.ul`
   max-width: 100%;
-  background-color: rgb(12, 117, 117);
+  background-color: rgb(75 144 65);
   text-align: center;
   margin: auto;
   padding: 20px;
