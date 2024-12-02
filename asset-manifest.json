@@ -1,15 +1,12 @@
 {
   "files": {
-    "main.css": "/Cztery-Pory-Herbaty/static/css/main.e6c13ad2.css",
-    "main.js": "/Cztery-Pory-Herbaty/static/js/main.09d8fda7.js",
-    "static/js/453.270379b4.chunk.js": "/Cztery-Pory-Herbaty/static/js/453.270379b4.chunk.js",
-    "index.html": "/Cztery-Pory-Herbaty/index.html",
-    "main.e6c13ad2.css.map": "/Cztery-Pory-Herbaty/static/css/main.e6c13ad2.css.map",
-    "main.09d8fda7.js.map": "/Cztery-Pory-Herbaty/static/js/main.09d8fda7.js.map",
-    "453.270379b4.chunk.js.map": "/Cztery-Pory-Herbaty/static/js/453.270379b4.chunk.js.map"
+    "main.css": "/AdrianBogdan796/Cztery-Pory-Herbaty.git/static/css/main.e6c13ad2.css",
+    "main.js": "/AdrianBogdan796/Cztery-Pory-Herbaty.git/static/js/main.adcb5d90.js",
+    "static/js/453.270379b4.chunk.js": "/AdrianBogdan796/Cztery-Pory-Herbaty.git/static/js/453.270379b4.chunk.js",
+    "index.html": "/AdrianBogdan796/Cztery-Pory-Herbaty.git/index.html",
+    "main.e6c13ad2.css.map": "/AdrianBogdan796/Cztery-Pory-Herbaty.git/static/css/main.e6c13ad2.css.map",
+    "main.adcb5d90.js.map": "/AdrianBogdan796/Cztery-Pory-Herbaty.git/static/js/main.adcb5d90.js.map",
+    "453.270379b4.chunk.js.map": "/AdrianBogdan796/Cztery-Pory-Herbaty.git/static/js/453.270379b4.chunk.js.map"
   },
-  "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.09d8fda7.js"
-  ]
+  "entrypoints": ["static/css/main.e6c13ad2.css", "static/js/main.adcb5d90.js"]
 }
