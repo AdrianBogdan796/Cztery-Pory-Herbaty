@@ -19,6 +19,7 @@ const ProcesPage = () => (
           </p>
         </>
       }
+      centered={true} // Wyśrodkowanie tytułu
     />
     <Section
       title="Przetwarzanie herbaty"
@@ -33,6 +34,7 @@ const ProcesPage = () => (
           </p>
         </>
       }
+      centered={true} // Wyśrodkowanie tytułu
     />
     <Section
       title="CTC (Crush, Tear, Curl)"
@@ -46,6 +48,7 @@ const ProcesPage = () => (
           </p>
         </>
       }
+      centered={true} // Wyśrodkowanie tytułu
     />
     <Section
       title="Fermentacja"
@@ -87,6 +90,7 @@ const ProcesPage = () => (
           </p>
         </>
       }
+      centered={true} // Wyśrodkowanie tytułu
     />
     <Section
       title="Kształtowanie liści"
@@ -105,6 +109,7 @@ const ProcesPage = () => (
           </p>
         </>
       }
+      centered={true} // Wyśrodkowanie tytułu
     />
   </Container>
 );
