@@ -6,8 +6,7 @@ export const MainSection = styled.section`
 `;
 
 export const SectionHeader = styled.h2`
-  display: flex;
-  justify-content: space-between;
+  text-align: center;
   padding: 20px;
   font-size: 22px;
   font-weight: bolder;
