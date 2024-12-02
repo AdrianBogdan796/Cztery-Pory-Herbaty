@@ -5,9 +5,11 @@ export const MainSection = styled.section`
   background-color: white;
 `;
 
-export const SectionHeader = styled.h3`
+export const SectionHeader = styled.h2`
   display: flex;
-  justify-content: space-between;
+  justify-content: ${(props) =>
+    props.centered ? "center" : "flex-start"}; /* Warunkowe wyśrodkowanie */
+  align-items: center;
   padding: 20px;
   font-size: 22px;
   font-weight: bolder;
